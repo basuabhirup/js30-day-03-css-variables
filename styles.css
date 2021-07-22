@@ -1,3 +1,10 @@
+/* --- Declariing three css variables */
+:root {
+  --spacing: 10px;
+  --blur: 10px;
+  --base: #ffc600;
+}
+
 body {
   text-align: center;
   background: #193549;
@@ -11,6 +18,36 @@ body {
   margin-bottom: 50px;
 }
 
+h2 .h1 {
+  color: red;
+}
+
+img {
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  background: var(--base);
+}
+
 input {
   width: 100px;
+}
+
+.attribution {
+  display: block;
+  color: #bbb;
+  text-align: center;
+  font-family: inherit;
+  margin: 6rem auto 0;
+  padding: 0.75rem 0;
+  font-size: 1.75rem;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.attribution a:hover {
+  cursor: pointer;
+  color: #fff;
 }
