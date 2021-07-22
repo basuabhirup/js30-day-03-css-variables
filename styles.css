@@ -18,8 +18,8 @@ body {
   margin-bottom: 50px;
 }
 
-h2 .h1 {
-  color: red;
+.hl {
+  color: var(--base);
 }
 
 img {
@@ -30,6 +30,10 @@ img {
 
 input {
   width: 100px;
+}
+
+input:hover {
+  cursor: pointer;
 }
 
 .attribution {
